@@ -1,3 +1,17 @@
 alert çıkarması bir xss saldırısıdır,
 
-dashboard üzereinden yapacaz..
+dashboard üzereinden yapacaz.. bekelmede kal
+
+<script>alert('XSS');</script>
+
+bunu yazarak saldırı çalıştırılır.
+
+bekle..
+
+echo "# guvenli_web" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/oglekaysenur/guvenli_web.git
+git push -u origin main
