@@ -1,0 +1,3 @@
+alert çıkarması bir xss saldırısıdır,
+
+dashboard üzereinden yapacaz..

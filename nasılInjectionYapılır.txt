@@ -1,0 +1,13 @@
+QL Injection saldırısını gerçekleştirmek için giriş alanlarına şu şekilde değerler girmelisiniz:
+
+Kullanıcı Adı:
+admin' OR '1'='1
+Şifre:
+
+Şifre:
+anything
+Bu değerleri girdiğinizde, oluşturulan SQL sorgusu aşağıdaki gibi olacaktır:
+
+
+SELECT * FROM users WHERE username='admin' OR '1'='1' AND password='anything'
+'1'='1' ifadesi her zaman doğru olduğundan, şifre kısmı göz ardı edilir ve herhangi bir kullanıcı adı ve şifreyle giriş yapılmasına olanak tanır. Böylece SQL Injection saldırısı başarılı olur ve sisteme giriş yapılabilir.

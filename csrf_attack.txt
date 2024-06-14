@@ -1,0 +1,1 @@
+burada ise data tablosuna "crsf attack+ saldırının yapıldığı tarihi atıyoruz"
